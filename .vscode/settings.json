@@ -2,5 +2,8 @@
   "typescript.tsdk": "node_modules/typescript/lib",
   "vue.server.includeLanguages": ["vue", "markdown"],
   "editor.tabSize": 2,
-  "files.eol": "\n"
+  "files.eol": "\n",
+  "[markdown]": {
+    "editor.stickyScroll.defaultModel": "foldingProviderModel"
+  }
 }
